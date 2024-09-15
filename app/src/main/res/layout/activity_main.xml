@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="40dp"
+
+    >
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.What is the purchase price?"
+        android:textSize="20sp"
+        android:textColor="#D3FF9800"
+        />
+
+    <EditText
+        android:id="@+id/edBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Buying price"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.What is the percentage?"
+        android:textSize="20sp"
+        android:textColor="#D3FF9800"
+        />
+
+    <EditText
+        android:id="@+id/edPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Percentage"
+        />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:backgroundTint="#AEFF9800"
+
+        />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/calculator"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+</LinearLayout>
